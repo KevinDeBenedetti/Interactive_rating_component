@@ -8,9 +8,9 @@ import Card from './components/Card.vue';
 
   <main class="h-screen flex justify-content items-center">
 
-    <RatingCard class="hidden" />
+<!--    <RatingCard />
 
-    <ThankYouCard />
+    <ThankYouCard />-->
 
     <Card />
 

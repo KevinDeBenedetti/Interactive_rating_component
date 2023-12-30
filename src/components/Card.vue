@@ -20,7 +20,11 @@ const starClasses = (star) => [
 ];
 
 const submitRating = () => {
-  showThankYou.value = true;
+  if (selectedStar.value !== null) {
+    showThankYou.value = true;
+  } else {
+    console.warn("Please select a rating before submitting.");
+  }
 }
 
 onMounted(() => {
